@@ -12,4 +12,4 @@ S Surya - 23011102081
 
 Initial ER diagram:
 
-![Alt text](images/Initial_ER.png)
+![Alt text](images/Initial_ER.jpg)

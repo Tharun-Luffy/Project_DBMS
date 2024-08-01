@@ -1,19 +1,21 @@
-DBMS Project
+**Project_DBMS (IOT-B)**
        
-       Title - 
+      
 
-Team Members:
+_Team Members:_
 
-Tharun TV - 23011102109
+.Tharun TV - 23011102109
 
-Prannav R - 23011102065
+.Prannav R - 23011102065
 
-Srri Hari TR - 23011102101
+.Srri Hari TR - 23011102101
 
-Priyajit Biswal - 23011102068
+.Priyajit Biswal - 23011102068
 
-S Surya - 23011102081
+.S Surya - 23011102081
 
-Initial ER diagram:
 
-![Alt text](images/Initial_ER.jpg)
+
+_Updated ER diagram:_
+
+![Alt text](images/updated_ER.png)

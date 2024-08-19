@@ -5,15 +5,15 @@ CREATE TABLE Hall (
     hall_name VARCHAR(255) NOT NULL,
     hall_venue VARCHAR(255) NOT NULL,
     hall_price VARCHAR(255) NOT NULL,
-    hall_owner VARCHAR(255) NOT NULL,
-    hall_acccomodation VARCHAR(255) NOT NULL,
+    FOREIGN KEY (hall_owner) REFERENCES Organizer(organizer_name),
+    hall_acccomodation INT NOT NULL,
     hall_tags VARCHAR(255) NOT NULL
 );
 
 -- Creating the Customer table
 CREATE TABLE Customer (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
-    customer_name VARCHAR(200) NOT NULL
+    customer_name VARCHAR(255) NOT NULL
     customer_password VARCHAR(255) NOT NULL,
     customer_email  VARCHAR(255) NOT NULL
 );

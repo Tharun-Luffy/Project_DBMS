@@ -26,7 +26,7 @@ CREATE TABLE Booking (
     booking_date DATE NOT NULL,
     FOREIGN KEY (customer_id) REFERENCES Customer(customer_id),
     FOREIGN KEY (hall_id) REFERENCES Hall(hall_id),
-    is_confirmed BOOLEAN 
+    is_avaliable BOOLEAN 
 );
 
 -- Creating the Organizer table
@@ -36,4 +36,3 @@ CREATE TABLE Organizer (
     organizer_password VARCHAR(255) NOT NULL,
     organizer_email  VARCHAR(255) NOT NULL
 );
-

@@ -1,6 +1,4 @@
 **Project_DBMS (IOT-B)**
-       
-      
 
 _Team Members:_
 
@@ -14,8 +12,6 @@ _Team Members:_
 
 .S Surya - 23011102081
 
+_Updated UML Class:_
 
-
-_Updated ER diagram:_
-
-![Alt text](images/updated_ER.png)
+![Alt text](images/UML_Class_Diagram.png)

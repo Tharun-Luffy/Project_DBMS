@@ -30,7 +30,7 @@ CREATE TABLE Booking (
     customer_id INT,
     hall_id INT,
     booking_date DATE NOT NULL,
-    is_available BOOLEAN,
+    is_confirmed BOOLEAN,
     FOREIGN KEY (customer_id) REFERENCES Customer(customer_id),
     FOREIGN KEY (hall_id) REFERENCES Hall(hall_id)
 );

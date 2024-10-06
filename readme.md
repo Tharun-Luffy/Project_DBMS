@@ -12,6 +12,10 @@ _Team Members:_
 
 .S Surya - 23011102081
 
-_Updated UML Class:_
+_ER Diagram_
 
-![Alt text](images/UML_Class_Diagram.png)
+![Alt text](images/Final_ER.png)
+
+_UML Class Diagram:_
+
+![Alt text](images/UML_Class_Diagram_Updated.png)

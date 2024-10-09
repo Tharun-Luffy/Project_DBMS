@@ -26,8 +26,12 @@ db.connect((err) => {
 });
 console.log("Tharun");
 
-app.get("/api/halls", (req, res) => {
-  const query = "SELECT * FROM Hall";
+app.get("/", (req, res) => {
+  const query =
+    "SELECT * FROM Hall" +
+    (req.query.id ? ` where hall_id = ${req.query.id}` : "");
+  console.log(query);
+
   db.query(query, (err, results) => {
     if (err) {
       console.log("Error fetching hall data:", err);
@@ -35,7 +39,7 @@ app.get("/api/halls", (req, res) => {
       return;
     }
     console.log("Hall Data:", results);
-    res.json(results);
+    res.json(req.query.id ? results[0] : results);
   });
 });
 
